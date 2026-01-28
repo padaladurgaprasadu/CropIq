@@ -1,1 +1,5 @@
+## Dataset
+- Satellite images collected from Sentinel Hub
+- Crop recommendation dataset stored in `data/crop_recommendation.csv`
+- The CSV maps soil type and region to suitable crops
 
