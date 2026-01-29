@@ -44,3 +44,20 @@ Currently, the system focuses on model training, location fetching, and preparat
 - 📈 Improve model accuracy using a larger dataset
 - 🌾 Multilingual and farmer-friendly Android UI
 - 🗺️ State-wise and region-wise crop recommendation
+
+## 🔄 Project Workflow
+Satellite Images (Sentinel Hub)
+            ↓
+Image Preprocessing
+            ↓
+EfficientNet-B7 Model
+            ↓
+Soil Type Prediction
+            ↓
+Soil–Crop Mapping (CSV)
+            ↓
+Crop Recommendation Output
+            ↓
+Mobile App Display
+
+-----
