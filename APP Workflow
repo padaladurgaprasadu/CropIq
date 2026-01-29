@@ -1,1 +1,35 @@
+## 📱 Application Workflow
 
+The CropIQ mobile application follows a user-centric workflow designed to
+provide real-time, location-aware crop recommendations.
+
+### 1️⃣ User Registration & Login
+- User registers using username, password, location, and preferred language
+- Existing users can log in using stored credentials
+
+### 2️⃣ Location Permission
+- App requests mandatory location access
+- User’s geographical coordinates are used to identify the soil region
+
+### 3️⃣ Satellite View Initialization
+- Google Maps is launched in **satellite view mode**
+- The selected location is mapped to corresponding satellite imagery
+
+### 4️⃣ Soil Analysis
+- Satellite image of the selected region is processed
+- The trained **EfficientNet-B7 model** classifies the soil type
+
+### 5️⃣ Crop Recommendation
+- Predicted soil type is matched with a soil–crop recommendation dataset
+- Suitable crops are identified based on soil compatibility
+
+### 6️⃣ Results Display
+- Recommended crops are displayed in image and text format
+- Model accuracy and confidence score are shown to the user
+
+### 7️⃣ User Interaction & Updates
+- User can refresh location or change region
+- Updated recommendations are generated dynamically
+
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
