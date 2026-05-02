@@ -65,4 +65,4 @@ Mobile App Display
 ##Android app workflow
 In CropIQ machine learning implementation we used static satellite images which are collected from sentinel hub satellite
 In Android app we used Google maps API keys to get better location details from the user
-Also we used Gemini API to predict the soil types based on the user locations
+Also we used Gemini API to predict the soil types based on the user locations and as well as it will also predict the weather patterns for two weeks early
